@@ -1,0 +1,46 @@
+### FRONTEND (React / TS)
+node_modules/
+dist/
+build/
+.npm/
+.yarn/
+cache/
+.DS_Store
+
+# env
+.env
+.env.*
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+### BACKEND (.NET)
+bin/
+obj/
+out/
+packages/
+*.user
+*.rsuser
+*.suo
+*.cache
+*.pdb
+
+# vs code / ide
+.vscode/
+.idea/
+*.swp
+
+# docker build
+docker-cache/
+.docker/
+docker-compose.local.yml
+
+# publish outputs
+publish/
+wwwroot/dist/
+
+# OS files
+Thumbs.db
+.DS_Store
